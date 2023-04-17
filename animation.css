@@ -1,0 +1,69 @@
+.racing{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+
+.car-1 { width: 10%;
+position: absolute;
+top: 80%;
+animation-name: car_1;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+}
+
+.car-2 {
+width: 10%;
+top: 70%;
+position: absolute;
+animation-name: car_1;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.bird{
+    width: 5%;
+    top: 2%;
+    position: absolute;
+    animation-name: car_1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+
+    .helecopter { width: 40%;
+        position: absolute;
+        top: 30%;
+        animation-name: hele;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        }
+        
+.street img{
+    width: 100%;
+    
+}
+@keyframes hele {
+from{top:0px}
+to {top:10%}
+    
+}
+@keyframes car_1{
+from{left:0px}
+to{left:90%}
+
+
+}
+
+@keyframes car_2{
+    from{left:0px}
+    to{left:90%}
+    
+    
+    }
